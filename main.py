@@ -1,6 +1,7 @@
 from src.utils.settings import settings
 from src.utils.db import Base, engine
 from fastapi import FastAPI
+from src.tasks.models import TaskModel
 
 
 
